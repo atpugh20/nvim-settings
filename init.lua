@@ -38,10 +38,10 @@ vim.cmd[[map J <C-d>]]
 vim.cmd[[map K <C-u>]]
 vim.cmd[[nnoremap <Leader>w <C-w>]]
 
-vim.keymap.set('n', '<Leader>ff', builtin.find_files, { desc = 'Telescope find files' })
-vim.keymap.set('n', '<Leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
-vim.keymap.set('n', '<Leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
-vim.keymap.set('n', '<Leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
+vim.keymap.set('n', '<Leader>f', builtin.find_files, { desc = 'Telescope find files' })
+vim.keymap.set('n', '<Leader>g', builtin.live_grep, { desc = 'Telescope live grep' })
+vim.keymap.set('n', '<Leader>b', builtin.buffers, { desc = 'Telescope buffers' })
+vim.keymap.set('n', '<Leader>h', builtin.help_tags, { desc = 'Telescope help tags' })
 
 -- Treesitter --
 
