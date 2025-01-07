@@ -3,6 +3,8 @@ local Plug = vim.fn['plug#']
 
 -- Plugins --
 
+-- Run :PlugInstall to install all of the plugins
+
 vim.call('plug#begin')
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
 Plug('nvim-lua/plenary.nvim')
@@ -56,6 +58,8 @@ configs.setup {
 }
 
 -- Language Servers --
+
+-- use :Mason and :MasonInstall to install each LSP individually 
 
 lspconfig.clangd.setup{}
 lspconfig.ts_ls.setup{}
