@@ -7,7 +7,7 @@ vim.call('plug#begin')
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
 Plug('nvim-lua/plenary.nvim')
 Plug('nvim-telescope/telescope.nvim', {['tag'] = '0.1.8' })
-Plug('olimorris/onedarkpro.nvim')
+Plug('Mofiqul/vscode.nvim')
 Plug('neovim/nvim-lspconfig')
 Plug('williamboman/mason.nvim')
 vim.call('plug#end')
@@ -15,7 +15,7 @@ vim.call('plug#end')
 require('telescope').setup{}
 require('mason').setup{}
 
-local configs = require'nvim-treesitter.configs'
+local configs = require('nvim-treesitter.configs')
 local builtin = require('telescope.builtin')
 local lspconfig = require('lspconfig')
 
@@ -46,7 +46,7 @@ vim.keymap.set('n', '<Leader>h', builtin.help_tags, { desc = 'Telescope help tag
 -- Treesitter --
 
 configs.setup {
-	ensure_installed = "all",
+	ensure_installed = {"cpp", "javascript", "python", "typescript", "c", "php", "html", "css", "json", "csv", "rust", "java", "c_sharp"},
 	highlight = {
 		enable = true,
 	},
@@ -65,4 +65,8 @@ lspconfig.html.setup{}
 
 -- Vim commands --
 
-vim.cmd[[colorscheme onedark]]
+
+
+vim.cmd[[
+	colorscheme vscode
+]]
