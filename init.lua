@@ -59,13 +59,11 @@ configs.setup {
 
 lspconfig.clangd.setup{}
 lspconfig.ts_ls.setup{}
-lspconfig.pyright.setup{}
+lspconfig.pylsp.setup{}
 lspconfig.cssls.setup{}
 lspconfig.html.setup{}
 
 -- Vim commands --
-
-
 
 vim.cmd[[
 	colorscheme vscode
