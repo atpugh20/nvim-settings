@@ -10,7 +10,10 @@ Steps for these settings:
 
 4. Use :Mason and :MasonInstall to install language servers
 
-5. Install Nodejs and NPM for typescript-language-server
+5. Install all languages and make sure they are added to path:
+   * Install Nodejs and NPM for typescript-language-server, HTML, and CSS
+   * Install dotnet for csharp
+   * Install python3 and add to path
 
-6. If Treesitter keeps failing to download the parsers, then change the ensured
+7. If Treesitter keeps failing to download the parsers, then change the ensured
    languages into a list of the languages you need. Ex: {"cpp", "c", "python"}
