@@ -1,0 +1,48 @@
+{ 
+    "vim.leader": "<Space>", 
+    "vim.normalModeKeyBindings": [  
+        { 
+            "before": ["H"], 
+            "after": ["^"] 
+        }, 
+        { 
+            "before": ["L"], 
+            "after": ["$"] 
+        }, 
+        { 
+            "before": ["J"], 
+            "after": ["<C-d>"] 
+        }, 
+        { 
+            "before": ["K"], 
+            "after": ["<C-u>"] 
+        }, 
+        { 
+            "before": ["<leader>", "w"], 
+            "after": ["<C-w>"] 
+        } 
+    ], 
+  
+    "vim.visualModeKeyBindings": [ 
+        { 
+            "before": ["H"], 
+            "after": ["^"] 
+        }, 
+        { 
+            "before": ["L"], 
+            "after": ["$"] 
+        }, 
+        { 
+            "before": ["J"], 
+            "after": ["<C-d>"] 
+        }, 
+        { 
+            "before": ["K"], 
+            "after": ["<C-u>"] 
+        }, 
+        { 
+            "before": ["<leader>", "w"], 
+            "after": ["<C-w>"] 
+        } 
+    ], 
+} 
