@@ -1,0 +1,11 @@
+// File path is "C:/Users/<profile>/.vsvimrc"
+
+map <Space> <Leader>
+map <C-c> gcc
+map L $
+map H ^
+map J <C-d>
+map K <C-u>
+nnoremap <Leader>w <C-w>
+
+set relativenumber number
