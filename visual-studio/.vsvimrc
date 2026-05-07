@@ -1,3 +1,4 @@
+// Add extension VsVim
 // File path is "C:/Users/<profile>/.vsvimrc"
 
 map <Space> <Leader>
