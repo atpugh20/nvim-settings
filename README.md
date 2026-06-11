@@ -29,5 +29,5 @@
 
 
 1. Add the extension VsVim
-2. Create a file called `.vsvimrc`. On windows the file path is C:/Users/<user>/.vsvimrc
+2. Create a file called `.vsvimrc`. On windows the file path is C:/Users/{user}/.vsvimrc
 3. Add the contents from the respective file
