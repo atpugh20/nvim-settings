@@ -7,7 +7,7 @@
 2. Install Git and add it to path
 3. Create all files that are located under the respective directory here. 
 
-4. Use `:Mason` and `:MasonInstall` to install language servers
+4. Use `:Mason` and `:MasonInstall` to install language servers, formatters, and linters
 
 5. Install all languages and make sure they are added to path:
    * Install Nodejs and NPM for typescript-language-server, HTML, and CSS
