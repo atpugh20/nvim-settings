@@ -13,6 +13,7 @@
    * Install Nodejs and NPM for typescript-language-server, HTML, and CSS
    * Install dotnet for csharp
    * Install python3 and add to path
+   * You might need to install unzip on Linux if attempting to install omnisharp or clangd
 
 6. If there are issues with all the plugins installing, run `:Lazy` and then `:Lazy sync`
 7. If tree-sitter is struggling to add all colorscheme colors, then you might have to: `npm install -g tree-sitter-cli`
